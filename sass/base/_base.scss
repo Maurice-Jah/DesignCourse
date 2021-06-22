@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  // font-weight: normal;
+  // line-height: 1.7;
+  // color: ;
+  background-image: url(../images/greek-vase.png);
+  background-position: center;
+}

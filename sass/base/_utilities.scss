@@ -1,0 +1,21 @@
+.hero {
+  &__heading {
+    position: relative;
+
+    [class$="work"] {
+      left: 220px;
+      margin-top: -5px;
+      position: relative;
+    }
+
+    &-divider {
+      position: absolute;
+      border: 1px solid #989696;
+      transform: rotate(90deg);
+      height: 165px;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
