@@ -31,12 +31,19 @@
     position: relative;
     grid-column: 1/5;
     grid-row: 1/2;
-    background: #2d1b9c;
-    transition: 0.3s ease;
+    background-image: url(/images/img-00.png);
+
+    [class$="001"] {
+      opacity: 0;
+    }
 
     &:hover {
-      background-color: var(--light-blue);
-      opacity: 0.19;
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(#2d1b9c, 0.7),
+          rgba(#2d1b9c, 0.8)
+        ),
+        url(/images/img-00.png);
     }
 
     &-search {
