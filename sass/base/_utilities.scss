@@ -3,16 +3,16 @@
     position: relative;
 
     [class$="work"] {
-      left: 220px;
-      margin-top: -5px;
+      left: 13.75rem;
+      margin-top: -0.3125rem;
       position: relative;
     }
 
     &-divider {
       position: absolute;
-      border: 1px solid #989696;
+      border: 0.0625rem solid #989696;
       transform: rotate(90deg);
-      height: 165px;
+      height: 10.3125rem;
       top: 50%;
       left: 80%;
       transform: translate(-50%, -50%);
